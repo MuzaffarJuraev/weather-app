@@ -47,11 +47,31 @@
   text-transform: uppercase;
   font-size: 30px;
   margin-top: 50px;
+  font-weight: 400;
 }
 .city-temp {
   font-size: 25px;
 }
 .city-temp p {
   text-transform: uppercase;
-  color: red;
+}
+@media only screen and (max-width: 450px){
+ .search {
+  width: 60%;
+  padding: 10px;
+  font-size: 20px;
+} 
+
+.city {
+  width: 250px;
+  border-radius: 10px;
+}
+.info > h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 25px;
+}
+.city-temp {
+  font-size: 20px;
+}
 }
