@@ -10,7 +10,6 @@ const Aplication = () => {
       const data = await FetchWeather(query);
       setWeather(data);
       setQuery();
-      console.log(data);
     }
   };
 
@@ -20,13 +19,13 @@ const Aplication = () => {
         <input
           type="text"
           className="search"
-          placeholder="Country name"
+          placeholder="Country name english"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyPress={search}
         />
       </div>
-      {weather.main && (
+      {weather.main(
         <div className="city">
           <div className="info">
             <h2 className="city-name">
