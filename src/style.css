@@ -37,7 +37,7 @@
 .city {
   width: 300px;
   height: 300px;
-  box-shadow: 0 0 10px #d2d2d24d;
+  box-shadow: 0 0 10px #666;
   padding: 20px;
   border-radius: 20px;
   margin: 5% auto;
