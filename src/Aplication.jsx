@@ -25,7 +25,7 @@ const Aplication = () => {
           onKeyPress={search}
         />
       </div>
-      {weather.main(
+      {weather.main && (
         <div className="city">
           <div className="info">
             <h2 className="city-name">

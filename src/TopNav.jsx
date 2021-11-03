@@ -4,7 +4,7 @@ const TopNav = () => {
   return (
     <>
       <div className="topNav">
-        <h3>Muzaffarjon | weather app </h3>
+        <h1>Muzaffarjon | weather app </h1>
       </div>
     </>
   );
